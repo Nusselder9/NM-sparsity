@@ -2,6 +2,8 @@
 `python -m torch.distributed.launch --nproc_per_node=4 train_imagenet.py --config configs/config_resnet18_2by4.yaml | tee ./log/res18.txt`
 
 <details>
+
+```
 Enabled distributed training.
 Enabled distributed training.
 Enabled distributed training.
@@ -6833,5 +6835,6 @@ Test: [100/196]	Time 0.075 (0.251)	Loss 1.4051 (1.2130)	Prec@1 78.125 (69.864)	P
 *****************************************
 Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
 *****************************************
+```
 
 </details>
